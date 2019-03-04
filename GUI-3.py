@@ -8,7 +8,7 @@ import os
 
 
 # Setting user Parameters
-apiToken = "8NUQ1BwOxdONDWTtUXIaqXIQ0ka582wdEOJ2XkSv"
+apiToken = "Your Token"
 dataCenter = "co1"
 
 baseUrl = "https://{0}.qualtrics.com/API/v3/surveys".format(dataCenter)
@@ -29,7 +29,7 @@ bottomFrame = Frame(root)
 bottomFrame.pack(side = BOTTOM)
 
 def download(id):
-    apiToken = "8NUQ1BwOxdONDWTtUXIaqXIQ0ka582wdEOJ2XkSv"
+    apiToken = "Your Token"
     surveyId = id
     fileFormat = "json"
     dataCenter = 'co1'
